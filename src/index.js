@@ -1,5 +1,5 @@
 function sayhelloprivate(){
-    return 'Hello world ' . arguments[0];
+    return 'Hello world ' + arguments[0];
 }
 
 exports.say = function (){
