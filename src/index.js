@@ -8,3 +8,5 @@ function say (){
 //
 // Dependre d'especificacions/interfícies i no d'implementacions.
 // ENCAPSULAR -> 1) Amagar implementació 2) Definir la interfície -> API Pública
+
+// Si no es posa res la funció és privada.
