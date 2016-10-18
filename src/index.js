@@ -1,4 +1,4 @@
-function say (){
+exports.say = function (){
     console.log('Hello world!');
 }
 
