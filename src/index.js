@@ -1,6 +1,10 @@
-exports.say = function (){
-    console.log('Hello world!');
+function sayhelloprivate(){
+    return 'Hello world ' . arguments[0];
 }
+
+exports.say = function (){
+    console.log(sayhelloprivate('David'));
+};
 
 //ENCAPSULAMENT : relacions amb l'exterior. Amagar estat intern dels objectes. Per canviar l'estat (propietats) obliguem a utilitzar funcions
 //SETTER/GETTER => Evitar. No són expressius. Cal? Trobar noms millors.
